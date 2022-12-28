@@ -1,0 +1,528 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    
+
+}
+header label{
+    display: none;
+}
+header nav ul{
+   list-style: none;
+}
+header nav ul li{
+        display: inline-block;
+        margin: 0px 30px;
+}
+.logo h2{
+    font-size: 34px;
+    margin-left: 50px;
+    color: red;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+header nav ul li a:hover{
+    color: cadetblue;
+    transform: scale(2);
+}
+@media (max-width:1385px){
+    header nav ul li{
+        margin: 0px 25px;
+    }
+}
+@media (max-width:1340px){
+    header nav ul li{
+        display: none;
+    }
+    header label{
+        display: block;
+    }
+   
+}
+@media (max-width:550px){
+    header{
+        display: block;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        background-color: #037474;
+    }
+    header nav ul li{
+        display: block;
+        padding: 0px;
+        margin: 0px;
+        color: #fff;
+    }
+    header nav ul li a{
+        color: #fff;
+    }
+    header label{
+        display: none;
+    }
+   
+}
+.ideas{
+    margin-top: 10px;
+  text-align: center;
+  padding: 10px;
+  background-image: url(https://wallpaperaccess.com/full/187161.jpg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.ideas .from{
+   
+    
+    width: 350px;
+    height: 420px;
+    border: 1px solid ;
+    padding: 10px;
+    background-color: #bbb;
+    border-radius: 10px;
+}
+.ideas h2{
+    width: 70%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+}
+.ideas h2 label{
+    margin: 20px 10px;
+    font-size: 38px;
+    
+}
+
+#face{
+    color: cornflowerblue;
+}
+#twi{
+    color:aqua;
+}
+#inst{
+    
+    color: orange;
+}
+.ideas h2 span{
+    color: darkgoldenrod;
+}
+.ideas .from h3{
+   font-size: 20px;
+}
+
+
+.ideas input{
+    display: block;
+    margin: 20px 35px;
+    font-size: 12px;
+    padding:5px 10px;
+    padding-right: 100px;
+}
+.from #course{
+    font-size: 12px;
+    padding:5px 10px ;
+    padding-right: 130px;
+    margin-left: 12px;
+    line-height: 50px;
+    border: none;
+}
+.from select:hover{
+    border: none;
+}
+.ideas button{
+    margin-top: 20px;
+    font-size: 24px;
+    letter-spacing: 1.05px;
+    padding: 5px 20px;
+    border-radius:10px ;
+    color: #fff;
+    background-color: orange;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    cursor:pointer;
+    
+}
+.ideas button:hover{
+    transform: scale(1.05);
+}
+.ideas p{
+    font-size: 10px;
+    
+}
+.ideas p span{
+    color:cornflowerblue;
+}
+@media (max-width:550px){
+    .ideas{
+      
+        display: block;
+        
+       /* padding-left:100px ; */
+    }
+    .ideas .from{
+        
+        margin-top: 10px;
+    }
+}
+.main .topic{
+    width: 80%;
+    margin: 15px auto;
+}
+.main .topic h1{
+    width: 50%;
+}
+.main .first{
+    display: flex;
+    justify-content: space-between;
+
+}
+.main .first .rohan{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(216, 237, 240);
+    margin-top: 30px;
+}
+.main .first .rohan img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50px;
+    margin: 10px;
+}
+.main .first .rohan p{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+}
+.main .first .rohan p span{
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 10px;
+}
+.main .first .software{
+    width: 320px;
+    /* height: 300px; */
+    border: 1px solid rgb(216, 237, 240);
+    padding: 10px;
+    margin:0px 10px;
+    
+}
+.main .first .software h2{
+    color: red;
+}
+.main .first .software p{
+    background-color: rgb(197, 213, 218);
+    margin-top: 20px;
+    font-size:18px ;
+    padding: 10px;
+    
+}
+.main .first .software p:hover{
+    color:orange;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+@media (max-width:550px){
+    .main .first{
+        display: block;
+    }
+    .main .topic h1{
+        width: 100%;
+    }
+    .main .first .rohan{
+        width: auto;
+        height: auto;
+        margin: 20px 0px;
+    }
+}
+@media (max-width:882px){
+    .main .first .rohan{
+        height: auto;
+    }
+}
+.main .second{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main .second h2 p{
+    border: 1px solid;
+    padding: 10px;
+}
+.main .second h2 p label{
+    margin: 10px;
+    color: cornflowerblue;
+}
+.main .second .developer{
+    width: 300px;
+    line-height: 30px;
+    color: red;
+    border: 1px solid rgb(216, 237, 240);
+    padding: 10px;
+}
+.main .second .developer hr{
+    width: 80%;
+    margin: 10px;
+}
+.main .second .developer p{
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-size:18px ;
+}
+.main .second .developer p:hover{
+    color: orange;
+    transform: scale(1.05);
+}
+@media (max-width:550px){
+    .main .second{
+
+        display: block;
+    }
+}
+.main #article{
+    margin-top: 30px;
+    width: 60%;
+
+}
+
+.main .third{
+    margin-top:30px ;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.main .third ol{
+    text-transform: capitalize;
+    font-size: 18px;
+    line-height: 30px;
+}
+.main .third .head h2{
+   margin: 20px 0px;
+}
+.main .third .head p{
+   
+    font-size: 21px;
+    line-height: 35px;
+    
+    padding-right: 10px;
+    
+}
+.main .third .head p span{
+    color:cornflowerblue ;
+}
+.main .third .head p span:hover{
+    color: red;
+}
+.main .third form{
+    width: 300px;
+    height: 420px;
+    border: 1px solid rgb(216, 237, 240);
+    padding: 10px;
+    text-align: center;
+}
+.main .third form h2{
+     color: red;
+     font-size: 28px;
+}
+.main .third form h2 hr{
+    
+    margin: 10px;
+}
+.main .third form input{
+    margin: 15px 10px;
+    padding: 5px 10px;
+    padding-right: 80px;
+}
+
+.main .third form select{
+    margin: 15px 10px;
+    padding: 5px 10px;
+    padding-right: 110px;
+}
+.main .third form button{
+    padding:5px 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+.main .third form button:hover{
+   
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.main .third form p{
+    font-size:10px;
+    margin: 10px 5px;
+}
+.main .third form p span{
+    color: cyan;
+}
+@media (max-width:550px){
+    .main .third{
+        display: block;
+    }
+    .main .third form{
+        height: auto;
+    }
+    .main .third .head p{
+        margin: 10px;
+        width: auto;
+    }
+}
+.main .fourth{
+    display: flex;
+    justify-content: space-between;
+}
+.main .fourth .paragraph{
+    width: 80%;
+}
+.main .fourth .paragraph p{
+    font-size: 21px;
+    line-height: 30px;
+    
+    padding-right: 10px;
+    margin: 15px 0px;
+}
+.main .fourth .paragraph li{
+    margin: 15px 0px;
+    font-size:20px ;
+}
+.main .fourth .skills{
+    text-align: center;
+    width: 400px;
+    border: 1px solid rgb(216, 237, 240);
+    padding: 10px;
+    
+}
+.main .fourth .skills h2{
+    font-size: 28px;
+    color: red;
+}
+.main .fourth .skills hr{
+   margin: 10px;
+}
+.main .fourth .skills form input{
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 10px;
+    padding-right: 60px;
+    margin: 8px 0px;
+    border: none;
+    background-color: cyan;
+}
+@media (max-width:1200px){
+    .main .fourth .paragraph{
+        width: 70%;
+    }
+    .main .fourth .paragraph img{
+        width: 300px;
+        margin: 10px;
+    }
+}
+@media (max-width:600px){
+    .main .fourth{
+        display: block;
+    }
+    
+}
+footer{
+    background: #24262b;
+    padding: 70px 0;
+
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1170px;
+    /* background-color: #033737; */
+    margin: auto;
+}
+.row{
+   display: flex;
+   flex-wrap: wrap;
+   
+}
+.footer-col{
+    
+    width: 25%;
+    padding: 0 15px;
+    /* margin: 1px; */
+    
+}
+.footer-col h4{
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    position: relative;
+}
+.footer-col h4:before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    background-color: #e91e63;
+    box-sizing: border-box;
+}
+.footer-col ul li:not(:last-child){
+    margin: 10px;
+}
+.footer-col ul li a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    color: #bbb;
+    display: block;
+    transition: 0.3s ;
+}
+.footer-col ul li a:hover{
+    color: #fff;
+    padding: 8px;
+
+
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffff;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #fff;
+}
+@media (max-width:767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:574px){
+    .footer-col{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
